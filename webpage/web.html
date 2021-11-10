@@ -1,0 +1,112 @@
+<html>
+<body bgcolor="#F0FFF0">
+<Center> <u><h1 id="zzz">Web Application</h1></u></center>
+<a href="#abc">Client-Server Model</a><br>
+<a href="#aaa">Components of Web Application</a><br>
+<a href="#bbb">Web content development</a><br>
+<a href="#ccc">Overview of HTTP - HTTP request – response</a><br>
+<a href="#ddd">Generation of dynamic web pages</a><br>
+<a href="#eee">Application Servers</a><br>
+<a href="#ggg">Web Security</a><br>
+<a href="#hhh">Commenting Code</a><br>
+<a href="#iii">Anchors</a><br>
+
+
+<h4 id="abc">Client-Server Model</h4>
+<p>The Client-server model is a distributed application structure that partitions task or workload between the providers of a resource or service, called servers, and service requesters called clients. In the client-server architecture, when the client computer sends a request for data to the server through the internet, the server accepts the requested process and deliver the data packets requested back to the client. Clients do not share any of their resources. Examples of Client-Server Model are Email, World Wide Web, etc.
+    Client: When we talk the word Client, it mean to talk of a person or an organization using a particular service. Similarly in the digital world a Client is a computer (Host) i.e. capable of receiving information or using a particular service from the service providers (Servers).
+    Servers: Similarly, when we talk the word Servers, It mean a person or medium that serves something. Similarly in this digital world a Server is a remote computer which provides information (data) or access to particular services.
+</p>
+<center><img src="index.png"></center>
+
+<h4 id="aaa">Components of Web Application</h4>
+<p>Web app architecture basically represents relationships and interactions between such components as user interfaces, transaction processing monitors, databases, and others. The primary goal is to ensure that all elements work together correctly.
+
+The logic is quite straightforward — when a user types an URL into the browser and hits ‘enter’, the browser makes a request to a server. The server responds and then shows the required web page.
+
+All applications consist of two parts — client (front-end) and server (back-end).
+
+The front-end is a visual part of the app. Users can see an interface and interact with it. The client-side code responds to the users’ actions. The back-end isn’t visual for users, yet makes their requests work. It handles the business logic and responds to HTTP requests.
+
+So when you enter your credentials into a registration form, you deal with the front-end, but once you hit ‘enter’ and get signed up — it’s the back-end that makes it work.
+
+Working correctly, client and server sides make up a web application software architecture.
+
+</p>
+<center><img src="comp.png"></center>
+
+
+
+<h4 id="bbb">Web content development</h4>
+<p>
+Web content development is the process of crafting all the information your website offers. It can involve everything from research and analysis to the creative design, writing, and editing processes, through formatting, organizing, and publishing the resulting content on the site.
+
+In the early days of the web, content development generally meant taking existing documents and coding the text into HTML. But with today’s smart search engines, web content includes virtually anything that can be distributed by an HTTP server and viewed by a web browser.
+
+That means not just the text on webpages and assets such as documents and PDFs, but also videos, audio recordings, images, animation, and other digital elements are now searchable. That opens up almost endless possibilities for ways to engage an audience and create leads through web content.
+</p>
+
+<h4 id="ccc">Overview of HTTP - HTTP request – response</h4>
+<p>The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. This is the foundation for data communication for the World Wide Web (i.e. internet) since 1990. HTTP is a generic and stateless protocol which can be used for other purposes as well using extensions of its request methods, error codes, and headers.
+Basically, HTTP is a TCP/IP based communication protocol, that is used to deliver data (HTML files, image files, query results, etc.) on the World Wide Web. The default port is TCP 80, but other ports can be used as well. It provides a standardized way for computers to communicate with each other. HTTP specification specifies how clients' request data will be constructed and sent to the server, and how the servers respond to these requests.
+</p>
+<center><img src="req.jpeg"></center>
+
+<h4 id="ddd">Generation of dynamic web pages</h4>
+<p>A dynamic web page is a web page that displays different content each time it's viewed. For example, the page may change with the time of day, the user that accesses the webpage, or the type of user interaction. There are two types of dynamic web pages.
+</p><p>
+<u>Client-Side Scripting</u> :
+Web pages that change in response to an action within that web page, such as a mouse or a keyboard action, use client-side scripting.
+Client-side scripts generate client-side content. Client-side content is content that's generated on the user's computer rather than the server. In these cases, the user's web browser would download the web page content from the server, process the code that's embedded in the web page, and then display the updated content to the user.
+Scripting languages such as JavaScript and Flash allow a web page to respond to client-side events.
+<u>Server-Side Scripting</u> :Web pages that change when a web page is loaded or visited use server-side scripting. Server-side content is content that's generated when a web page is loaded. For example, login pages, forums, submission forms, and shopping carts, all use server-side scripting since those web pages change according to what is submitted to it.</p>
+<center><img src="dynamic.jpeg"></center>
+
+<h4 id="eee"> Application Servers</h4>
+<p>An application server is a modern form of platform middleware. It is system software that resides between the operating system (OS) on one side, the external resources (such as a database management system [DBMS], communications and Internet services) on another side and the users’ applications on the third side. The function of the application server is to act as host (or container) for the user’s business logic while facilitating access to and performance of the business application. The application server must perform despite the variable and competing traffic of client requests, hardware and software failures, the distributed nature of the larger-scale applications, and potential heterogeneity of data and processing resources required to fulfill the business requirements of the applications.
+
+A high-end online-transaction-processing-style application server delivers business applications with guaranteed levels of performance, availability and integrity. An application server also supports multiple application design patterns, according to the nature of the business application and the practices in the particular industry for which the application has been designed. It typically supports multiple programming languages and deployment platforms, although most have a particular affinity to one or two of these. Some application servers that implement standard application interfaces and protocols, such as Java Enterprise Edition (Java EE), are entirely proprietary.</p>
+<center><img src="appli.png"></center>
+
+<h4 id="fff"> Web Security</h4>
+<p>The Internet is a dangerous place! With great regularity, we hear about websites becoming unavailable due to denial of service attacks, or displaying modified (and often damaging) information on their homepages. In other high-profile cases, millions of passwords, email addresses, and credit card details have been leaked into the public domain, exposing website users to both personal embarrassment and financial risk.
+The purpose of website security is to prevent these (or any) sorts of attacks. The more formal definition of website security is the act/practice of protecting websites from unauthorized access, use, modification, destruction, or disruption.
+Effective website security requires design effort across the whole of the website: in your web application, the configuration of the web server, your policies for creating and renewing passwords, and the client-side code. While all that sounds very ominous, the good news is that if you're using a server-side web framework, it will almost certainly enable "by default" robust and well-thought-out defense mechanisms against a number of the more common attacks. Other attacks can be mitigated through your web server configuration, for example by enabling HTTPS. Finally, there are publicly available vulnerability scanner tools that can help you find out if you've made any obvious mistakes.
+The rest of this article gives you more details about a few common threats and some of the simple steps you can take to protect your site.</p>
+
+<h4 id="ggg">Formatting and fonts in html</h4>
+<p>HTML Formatting is a process of formatting text for better look and feel. HTML provides us ability to format text without using CSS. There are many formatting tags in HTML. These tags are used to make text bold, italicized, or underlined. There are almost 14 options available that how text appears in HTML and XHTML.
+
+In HTML the formatting tags are divided into twchors,o categories:
+
+    <ul><li>Physical tag: These tags are used to provide the visual appearance to the text.</li>
+    <li>Logical tag: These tags are used to add some logical or semantic value to the text.</li>
+</ul>
+<br><br>
+
+<h4 id="hhh">Commenting Code</h4>
+<p>The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.
+
+You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.<br>
+<u>Note</u>: The two forward slashes at the end of comment line (//) is the JavaScript comment symbol. This prevents JavaScript from executing the --> tag.
+</p>
+
+<h4 id="iii">Anchors</h4>
+<p>The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.
+
+Content within each <a> should indicate the link's destination. If the href attribute is present, pressing the enter key while focused on the <a> element will activate it.</p>
+
+<btton><a href="#zzz">Go back</a></button>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
